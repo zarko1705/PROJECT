@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Kalam", cursive;
 }
 
 .navbar {
@@ -14,7 +15,7 @@
 }
 .navbar li a {
     display: flex;
-    color: aliceblue;
+    color: #f2b279;
     text-decoration: none;
     padding: 16px;
     font-size: 1.8em;
@@ -22,7 +23,7 @@
 }
 
 .navbar li a:hover {
-    color: rgb(206, 210, 212);
+    color: #d96704;
     background-color: black;
     border-radius: 5px;
     padding: 16px;
@@ -31,14 +32,21 @@
 
 .section-headline {
     position: absolute;
-    top: 35%;
+    top: 170px;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #f2b279;
     font-size: 3em;
-    font-family: "Kalam", cursive;
 }
-
+.section-headline-menu {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5em;
+    text-decoration: underline;
+    color: #d96704;
+}
 .section {
     height: 100vh;
     position: relative;
@@ -46,6 +54,21 @@
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.menu {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    color: #f2b279;
+    font-size: 1.4em;
+    border: 2px solid #d96704;
+    background-image: linear-gradient(
+        45deg,
+        rgba(0, 0, 0, 0.479),
+        rgba(0, 0, 0, 0.501)
+    );
+    padding: 24px;
 }
 
 .section-1 {
@@ -59,8 +82,8 @@
 .section-2 {
     background-image: linear-gradient(
             45deg,
-            rgba(0, 0, 0, 0.514),
-            rgba(0, 0, 0, 0.514)
+            rgba(0, 0, 0, 0.601),
+            rgba(0, 0, 0, 0.605)
         ),
         url(/Backgrounds/pizza-1.jpg);
 }
@@ -130,13 +153,42 @@
 }
 
 .aside {
-    padding: 8px;
-    font-size: 16px;
-    border: 5px solid black;
+    text-align: center;
+    padding: 16px;
+    font-size: 1.3em;
+    color: #f2b279;
+    border: 2px solid #d96704;
     background-image: linear-gradient(
             45deg,
-            rgba(0, 0, 0, 0.514),
-            rgba(0, 0, 0, 0.514)
+            rgba(0, 0, 0, 0.316),
+            rgba(0, 0, 0, 0.315)
         ),
         url(/Backgrounds/background-1.jpg);
+}
+
+.special {
+    position: absolute;
+    bottom: 73px;
+    left: 97px;
+    font-size: 1.4em;
+    line-height: 26px;
+    letter-spacing: 2px;
+    background-image: linear-gradient(
+        45deg,
+        rgba(0, 0, 0, 0.518),
+        rgba(0, 0, 0, 0.518)
+    );
+    padding: 38px 64px;
+}
+
+.special li {
+    color: #f29f05;
+}
+.special-title {
+    color: white;
+}
+
+.special-title {
+    margin-bottom: 8px;
+    color: #f29f05;
 }
