@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section {
+    height: 100vh;
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-1 {
+    background-image: linear-gradient(
+            45deg,
+            rgba(0, 0, 0, 0.304),
+            rgba(0, 0, 0, 0.304)
+        ),
+        url(/Backgrounds/pizza-oven.jpg);
+}
+.section-2 {
+    background-image: linear-gradient(
+            45deg,
+            rgba(0, 0, 0, 0.304),
+            rgba(0, 0, 0, 0.304)
+        ),
+        url(/Backgrounds/pizza-1.jpg);
+}
+.section-3 {
+    background-image: linear-gradient(
+            45deg,
+            rgba(0, 0, 0, 0.304),
+            rgba(0, 0, 0, 0.304)
+        ),
+        url(/Backgrounds/burger-1.jpg);
+}
+
+.aside {
+    padding: 8px;
+    font-size: 16px;
+    border: 5px solid black;
+    background-image: linear-gradient(
+            45deg,
+            rgba(0, 0, 0, 0.304),
+            rgba(0, 0, 0, 0.304)
+        ),
+        url(/Backgrounds/background-1.jpg);
+}
