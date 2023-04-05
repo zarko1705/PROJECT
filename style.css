@@ -4,6 +4,41 @@
     box-sizing: border-box;
 }
 
+.navbar {
+    position: fixed;
+    z-index: 99;
+}
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+.navbar li a {
+    display: flex;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 16px;
+    font-size: 1.8em;
+    transition: background-color 1s ease;
+}
+
+.navbar li a:hover {
+    color: rgb(206, 210, 212);
+    background-color: black;
+    border-radius: 5px;
+    padding: 16px;
+    font-size: 1.8em;
+}
+
+.section-headline {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3em;
+    font-family: "Kalam", cursive;
+}
+
 .section {
     height: 100vh;
     position: relative;
@@ -16,80 +51,80 @@
 .section-1 {
     background-image: linear-gradient(
             45deg,
-            rgba(0, 0, 0, 0.304),
-            rgba(0, 0, 0, 0.304)
+            rgba(0, 0, 0, 0.514),
+            rgba(0, 0, 0, 0.514)
         ),
         url(/Backgrounds/pizza-oven.jpg);
 }
 .section-2 {
     background-image: linear-gradient(
             45deg,
-            rgba(0, 0, 0, 0.304),
-            rgba(0, 0, 0, 0.304)
+            rgba(0, 0, 0, 0.514),
+            rgba(0, 0, 0, 0.514)
         ),
         url(/Backgrounds/pizza-1.jpg);
 }
 .section-3 {
     background-image: linear-gradient(
             45deg,
-            rgba(0, 0, 0, 0.304),
-            rgba(0, 0, 0, 0.304)
+            rgba(0, 0, 0, 0.514),
+            rgba(0, 0, 0, 0.514)
         ),
         url(/Backgrounds/burger-1.jpg);
 }
 .section-4 {
     background-image: linear-gradient(
             45deg,
-            rgba(0, 0, 0, 0.304),
-            rgba(0, 0, 0, 0.304)
+            rgba(0, 0, 0, 0.514),
+            rgba(0, 0, 0, 0.514)
         ),
         url(/Backgrounds/steak-1.jpg);
 }
 .section-5 {
     background-image: linear-gradient(
             45deg,
-            rgba(0, 0, 0, 0.304),
-            rgba(0, 0, 0, 0.304)
+            rgba(0, 0, 0, 0.503),
+            rgba(0, 0, 0, 0.501)
         ),
         url(/Backgrounds/pasta-1.jpg);
 }
 .section-6 {
     background-image: linear-gradient(
             45deg,
-            rgba(0, 0, 0, 0.304),
-            rgba(0, 0, 0, 0.304)
+            rgba(0, 0, 0, 0.514),
+            rgba(0, 0, 0, 0.514)
         ),
         url(/Backgrounds/soup-1.jpg);
 }
 .section-7 {
     background-image: linear-gradient(
             45deg,
-            rgba(0, 0, 0, 0.304),
-            rgba(0, 0, 0, 0.304)
+            rgba(0, 0, 0, 0.514),
+            rgba(0, 0, 0, 0.514)
         ),
         url(/Backgrounds/salat-1.jpg);
 }
 .section-8 {
     background-image: linear-gradient(
             45deg,
-            rgba(0, 0, 0, 0.304),
-            rgba(0, 0, 0, 0.304)
+            rgba(0, 0, 0, 0.514),
+            rgba(0, 0, 0, 0.514)
         ),
-        url(/Backgrounds/desert-1.jpg);
+        url(/Backgrounds/desert-2.jpg);
 }
 .section-9 {
     background-image: linear-gradient(
             45deg,
-            rgba(0, 0, 0, 0.304),
-            rgba(0, 0, 0, 0.304)
+            rgba(0, 0, 0, 0.514),
+            rgba(0, 0, 0, 0.514)
         ),
         url(/Backgrounds/drinks-1.jpg);
 }
 .section-10 {
     background-image: linear-gradient(
             45deg,
-            rgba(0, 0, 0, 0.304),
-            rgba(0, 0, 0, 0.304)
+            rgba(0, 0, 0, 0.514),
+            rgba(0, 0, 0, 0.514)
         ),
         url(/Backgrounds/background-1.jpg);
 }
@@ -100,8 +135,8 @@
     border: 5px solid black;
     background-image: linear-gradient(
             45deg,
-            rgba(0, 0, 0, 0.304),
-            rgba(0, 0, 0, 0.304)
+            rgba(0, 0, 0, 0.514),
+            rgba(0, 0, 0, 0.514)
         ),
         url(/Backgrounds/background-1.jpg);
 }
