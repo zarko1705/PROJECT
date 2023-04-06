@@ -35,3 +35,45 @@
     padding: 16px;
     font-size: 1.8em;
 }
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+img {
+    width: 300px;
+    height: 200px;
+}
+
+.gallery-item {
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.gallery-item:hover {
+    transform: scale(1.3);
+}
+
+#modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.767);
+    z-index: 99;
+    overflow: hidden;
+}
+
+#modal-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: auto;
+}
