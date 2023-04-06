@@ -78,7 +78,9 @@
     width: 80%;
     word-wrap: break-word;
 }
-
+.product {
+    color: #d96704;
+}
 .section-1 {
     background-image: linear-gradient(
             45deg,
@@ -208,6 +210,10 @@
     width: 90%;
     height: 600px;
     columns: 4;
+}
+.drink-type {
+    color: #f29f05;
+    text-decoration: underline;
 }
 
 .contact-main {
