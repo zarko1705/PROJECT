@@ -73,3 +73,21 @@ body {
     width: 80%;
     word-wrap: break-word;
 }
+
+@media all and (min-width: 350px) and (max-width: 570px) {
+    * {
+        font-size: 0.85em;
+    }
+    .container {
+        left: 80px;
+    }
+}
+
+@media all and (min-width: 571px) and (max-width: 850px) {
+    * {
+        font-size: 0.9em;
+    }
+    .container {
+        left: 80px;
+    }
+}
