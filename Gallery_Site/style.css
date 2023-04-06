@@ -47,6 +47,16 @@ body {
     padding: 16px;
     font-size: 1.8em;
 }
+
+.main-title {
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5em;
+    text-decoration: underline;
+    color: #d96704;
+}
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -89,4 +99,15 @@ img {
     transform: translate(-50%, -50%);
     width: 65%;
     height: auto;
+}
+
+@media all and (min-width: 350px) and (max-width: 640px) {
+    * {
+        font-size: 0.8em;
+    }
+}
+@media all and (min-width: 641px) and (max-width: 850px) {
+    * {
+        font-size: 0.9em;
+    }
 }
