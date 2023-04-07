@@ -1,0 +1,369 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Kalam", cursive;
+}
+
+.navbar {
+    position: fixed;
+    background-image: linear-gradient(
+        45deg,
+        rgba(0, 0, 0, 0.479),
+        rgba(0, 0, 0, 0.501)
+    );
+    width: 100%;
+    z-index: 99;
+}
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+.navbar li a {
+    display: flex;
+    color: #f2b279;
+    text-decoration: none;
+    padding: 16px;
+    font-size: 1.8em;
+    transition: background-color 1s ease;
+}
+
+.navbar li a:hover {
+    color: #d96704;
+    background-color: black;
+    border-radius: 5px;
+    padding: 16px;
+    font-size: 1.8em;
+}
+
+.section-headline {
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f2b279;
+    font-size: 3em;
+}
+.section-headline-menu {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5em;
+    text-decoration: underline;
+    color: #d96704;
+}
+.section {
+    height: 100vh;
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menu {
+    position: absolute;
+    top: 100px;
+    left: 160px;
+    color: #f2b279;
+    font-size: 1.3em;
+    border: 2px solid #d96704;
+    background-image: linear-gradient(
+        45deg,
+        rgba(0, 0, 0, 0.479),
+        rgba(0, 0, 0, 0.501)
+    );
+    padding: 24px;
+    width: 80%;
+    word-wrap: break-word;
+}
+
+.product {
+    color: #d96704;
+}
+
+.section-1 {
+    background-image: linear-gradient(
+            45deg,
+            rgba(0, 0, 0, 0.514),
+            rgba(0, 0, 0, 0.514)
+        ),
+        url(/Backgrounds/pizza-oven.jpg);
+}
+.section-2 {
+    background-image: linear-gradient(
+            45deg,
+            rgba(0, 0, 0, 0.601),
+            rgba(0, 0, 0, 0.605)
+        ),
+        url(/Backgrounds/pizza-1.jpg);
+}
+.section-3 {
+    background-image: linear-gradient(
+            45deg,
+            rgba(0, 0, 0, 0.514),
+            rgba(0, 0, 0, 0.514)
+        ),
+        url(/Backgrounds/burger-1.jpg);
+}
+.section-4 {
+    background-image: linear-gradient(
+            45deg,
+            rgba(0, 0, 0, 0.514),
+            rgba(0, 0, 0, 0.514)
+        ),
+        url(/Backgrounds/steak-1.jpg);
+}
+.section-5 {
+    background-image: linear-gradient(
+            45deg,
+            rgba(0, 0, 0, 0.503),
+            rgba(0, 0, 0, 0.501)
+        ),
+        url(/Backgrounds/pasta-1.jpg);
+}
+.section-6 {
+    background-image: linear-gradient(
+            45deg,
+            rgba(0, 0, 0, 0.514),
+            rgba(0, 0, 0, 0.514)
+        ),
+        url(/Backgrounds/soup-1.jpg);
+}
+.section-7 {
+    background-image: linear-gradient(
+            45deg,
+            rgba(0, 0, 0, 0.514),
+            rgba(0, 0, 0, 0.514)
+        ),
+        url(/Backgrounds/salat-1.jpg);
+}
+.section-8 {
+    background-image: linear-gradient(
+            45deg,
+            rgba(0, 0, 0, 0.514),
+            rgba(0, 0, 0, 0.514)
+        ),
+        url(/Backgrounds/desert-2.jpg);
+}
+.section-9 {
+    background-image: linear-gradient(
+            45deg,
+            rgba(0, 0, 0, 0.514),
+            rgba(0, 0, 0, 0.514)
+        ),
+        url(/Backgrounds/drinks-1.jpg);
+}
+.section-10 {
+    background-image: linear-gradient(
+            45deg,
+            rgba(0, 0, 0, 0.514),
+            rgba(0, 0, 0, 0.514)
+        ),
+        url(/Backgrounds/background-1.jpg);
+}
+
+.aside {
+    text-align: center;
+    padding: 16px;
+    font-size: 1.3em;
+    color: #f2b279;
+    border: 2px solid #d96704;
+    background-image: linear-gradient(
+            45deg,
+            rgba(0, 0, 0, 0.316),
+            rgba(0, 0, 0, 0.315)
+        ),
+        url(/Backgrounds/background-1.jpg);
+}
+
+.special {
+    position: absolute;
+    bottom: 73px;
+    left: 42px;
+    font-size: 1.4em;
+    line-height: 26px;
+    letter-spacing: 2px;
+    background-image: linear-gradient(
+        45deg,
+        rgba(0, 0, 0, 0.518),
+        rgba(0, 0, 0, 0.518)
+    );
+    padding: 38px 64px;
+}
+
+.special li {
+    color: #f29f05;
+}
+.special-title {
+    color: white;
+}
+
+.special-title {
+    margin-bottom: 8px;
+    color: #f29f05;
+}
+
+.menu-drinks {
+    position: absolute;
+    top: 100px;
+    left: 86px;
+    width: 90%;
+    height: 600px;
+    columns: 4;
+}
+.drink-type {
+    color: #f29f05;
+    text-decoration: underline;
+}
+
+.contact-main {
+    position: absolute;
+    top: 100px;
+    left: 86px;
+    width: 90%;
+    height: 600px;
+    color: #f2b279;
+    font-size: 1.3em;
+    border: 2px solid #d96704;
+    background-image: linear-gradient(
+        45deg,
+        rgba(0, 0, 0, 0.479),
+        rgba(0, 0, 0, 0.501)
+    );
+    padding: 24px;
+}
+.column-1 {
+    position: absolute;
+    top: 90px;
+    left: 100px;
+    font-size: 1.3em;
+}
+.column-2 {
+    position: absolute;
+    top: 40px;
+    right: 177px;
+    font-size: 1.2em;
+}
+form {
+    width: 300px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="text"],
+textarea {
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0062cc;
+}
+
+@media all and (min-width: 350px) and (max-width: 760px) {
+    * {
+        font-size: 0.9em;
+    }
+    .menu {
+        left: 70px;
+    }
+    .menu-drinks {
+        left: 50px;
+        width: 86%;
+        height: 416px;
+    }
+    .contact-main {
+        left: 35px;
+        width: 75%;
+    }
+    .column-1 {
+        top: 21px;
+        left: 28px;
+    }
+    .column-2 {
+        top: 214px;
+        left: 28px;
+    }
+    input[type="email"],
+    input[type="text"],
+    textarea {
+        padding: 3px;
+        width: 250px;
+    }
+}
+
+@media all and (min-width: 761px) and (max-width: 1024px) {
+    * {
+        font-size: 0.95em;
+    }
+    .menu {
+        left: 64px;
+    }
+    .menu-drinks {
+        left: 40px;
+        font-size: 1em;
+        height: 420px;
+    }
+
+    .contact-main {
+        left: 34px;
+    }
+    .column-1 {
+        top: 13px;
+        left: 25px;
+    }
+    .column-2 {
+        top: 158px;
+        right: 62px;
+        font-size: 1.2em;
+    }
+}
+
+@media all and (min-width: 1025px) and (max-width: 1300px) {
+    * {
+        font-size: 0.97em;
+    }
+    .menu {
+        left: 100px;
+    }
+
+    .menu-drinks {
+        font-size: 1.2em;
+        left: 64px;
+        height: 535px;
+    }
+
+    .column-1 {
+        top: 146px;
+        left: 30px;
+    }
+    .column-2 {
+        top: 40px;
+        right: 100px;
+        font-size: 1.2em;
+    }
+}
